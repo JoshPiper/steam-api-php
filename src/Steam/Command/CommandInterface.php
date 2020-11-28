@@ -28,4 +28,9 @@ interface CommandInterface
      * @return array
      */
     public function getParams();
+
+    /**
+	 * @return ?string
+	 */
+	public function getRequestKey();
 } 
