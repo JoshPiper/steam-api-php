@@ -25,6 +25,11 @@
             "Steam\\": "src/Steam"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Steam\\": "tests/src/Steam"
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "2.0.x-dev"
