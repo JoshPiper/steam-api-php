@@ -36,7 +36,7 @@ class GetPublishedFileDetails extends RemoteStorage {
 	 * @inheritDoc
 	 */
 	public function getRequestMethod(){
-		'POST';
+		return 'POST';
 	}
 
 	/**
