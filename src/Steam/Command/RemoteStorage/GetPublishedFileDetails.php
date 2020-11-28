@@ -51,4 +51,11 @@ class GetPublishedFileDetails extends RemoteStorage {
 		}
 		return $params;
 	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getRequestKey(){
+		return static::REQUESTKEY_QUERY;
+	}
 }
