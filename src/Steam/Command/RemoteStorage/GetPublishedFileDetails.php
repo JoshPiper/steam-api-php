@@ -8,6 +8,24 @@ class GetPublishedFileDetails extends RemoteStorage {
 	protected $fileIds = [];
 
 	/**
+	 * GetPublishedFileDetails constructor.
+	 * @param ?array $fileIds Array of File IDs to get details for.
+	 */
+	public function __construct($fileIds = null){
+		if (!is_null($fileIds)){
+			$this->fileIds = $fileIds;
+		}
+	}
+
+	/**
+	 * Add a new file ID to the query list.
+	 * @param integer $fileId
+	 */
+	public function addFileID($fileId){
+		$this->fileIds[] = $fileId;
+	}
+
+	/**
 	 * @inheritDoc
 	 */
 	public function getMethod(){
