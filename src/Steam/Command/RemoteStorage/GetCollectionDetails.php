@@ -18,10 +18,10 @@ class GetCollectionDetails extends RemoteStorage {
 	}
 
 	/**
-	 * Add a new file ID to the query list.
+	 * Add a new collection ID to the query list.
 	 * @param integer $collectionId
 	 */
-	public function addFileID($collectionId){
+	public function addCollectionID($collectionId){
 		$this->collectionIds[] = $collectionId;
 	}
 

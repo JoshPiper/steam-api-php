@@ -32,9 +32,9 @@ class GetCollectionDetailsTest extends \PHPUnit_Framework_TestCase
         ], $this->instance->getParams());
     }
 
-    public function testAddingFileID()
+    public function testAddingCollectionID()
     {
-        $this->instance->addFileID(1234);
+        $this->instance->addCollectionID(1234);
         $this->assertParams([
         	'collectioncount' => 1,
 			'publishedfileids[0]' => 1234
@@ -44,7 +44,7 @@ class GetCollectionDetailsTest extends \PHPUnit_Framework_TestCase
     public function assertParams($params)
     {
         $this->assertEquals(array_merge([
-            'itemcount' => 0
+            'collectioncount' => 0
         ], $params), $this->instance->getParams());
     }
 }
