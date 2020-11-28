@@ -8,6 +8,7 @@ abstract class Command implements CommandInterface {
 	const REQUESTKEY_DEFAULT = null;
 	const REQUESTKEY_QUERY = 'query';
 	const REQUESTKEY_BODY = 'body';
+
 	/**
 	 * @inheritDoc
 	 */
