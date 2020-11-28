@@ -2,9 +2,10 @@
 
 namespace Steam\Command\PlayerService;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetOwnedGames implements CommandInterface
+class GetOwnedGames extends Command implements CommandInterface
 {
     /**
      * @var int

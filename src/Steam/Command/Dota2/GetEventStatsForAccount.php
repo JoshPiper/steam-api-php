@@ -2,10 +2,11 @@
 
 namespace Steam\Command\Dota2;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 use Steam\Traits\Dota2CommandTrait;
 
-class GetEventStatsForAccount implements CommandInterface
+class GetEventStatsForAccount extends Command implements CommandInterface
 {
     use Dota2CommandTrait;
 

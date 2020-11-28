@@ -2,9 +2,10 @@
 
 namespace Steam\Command\EconService;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class DeclineTradeOffer implements CommandInterface
+class DeclineTradeOffer extends Command implements CommandInterface
 {
     /**
      * @var int

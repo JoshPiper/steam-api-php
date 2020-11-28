@@ -2,9 +2,10 @@
 
 namespace Steam\Command\News;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetNewsForApp implements CommandInterface
+class GetNewsForApp extends Command implements CommandInterface
 {
     /**
      * @var int

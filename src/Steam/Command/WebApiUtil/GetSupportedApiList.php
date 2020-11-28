@@ -2,9 +2,10 @@
 
 namespace Steam\Command\WebApiUtil;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetSupportedApiList implements CommandInterface
+class GetSupportedApiList extends Command implements CommandInterface
 {
     public function getInterface()
     {

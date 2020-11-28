@@ -2,10 +2,11 @@
 
 namespace Steam\Command\Dota2;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 use Steam\Traits\Dota2CommandTrait;
 
-class GetItemIconPath implements CommandInterface
+class GetItemIconPath extends Command implements CommandInterface
 {
     use Dota2CommandTrait;
 

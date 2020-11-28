@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Apps;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetAppList implements CommandInterface
+class GetAppList extends Command implements CommandInterface
 {
     public function getInterface()
     {

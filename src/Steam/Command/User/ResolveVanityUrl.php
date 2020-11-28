@@ -2,9 +2,10 @@
 
 namespace Steam\Command\User;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class ResolveVanityUrl implements CommandInterface
+class ResolveVanityUrl extends Command implements CommandInterface
 {
     const INDIVIDUAL_PROFILE = 1;
     const GROUP = 2;

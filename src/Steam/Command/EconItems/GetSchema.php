@@ -2,12 +2,13 @@
 
 namespace Steam\Command\EconItems;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
 /**
  * @deprecated Has been removed by Valve; use GetSchemaItems/GetSchemaOverview
  */
-class GetSchema implements CommandInterface
+class GetSchema extends Command implements CommandInterface
 {
     /**
      * @var int

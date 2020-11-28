@@ -2,9 +2,10 @@
 
 namespace Steam\Command\UserStats;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetGlobalAchievementPercentagesForApp implements CommandInterface
+class GetGlobalAchievementPercentagesForApp extends Command implements CommandInterface
 {
     /**
      * @var int

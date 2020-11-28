@@ -2,9 +2,10 @@
 
 namespace Steam\Command\UserStats;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetSchemaForGame implements CommandInterface
+class GetSchemaForGame extends Command implements CommandInterface
 {
     /**
      * @var int

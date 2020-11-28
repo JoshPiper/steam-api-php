@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Dota2\Ticket;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class SetSteamAccountPurchased implements CommandInterface
+class SetSteamAccountPurchased extends Command implements CommandInterface
 {
     /**
      * @var int

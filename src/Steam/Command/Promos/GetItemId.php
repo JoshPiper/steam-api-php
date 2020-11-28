@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Promos;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetItemId implements CommandInterface
+class GetItemId extends Command implements CommandInterface
 {
     /**
      * @var int

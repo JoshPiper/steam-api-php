@@ -2,9 +2,10 @@
 
 namespace Steam\Command\User;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetPlayerBans implements CommandInterface
+class GetPlayerBans extends Command implements CommandInterface
 {
     /**
      * @var array

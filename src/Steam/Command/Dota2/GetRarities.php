@@ -2,10 +2,11 @@
 
 namespace Steam\Command\Dota2;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 use Steam\Traits\Dota2CommandTrait;
 
-class GetRarities implements CommandInterface
+class GetRarities extends Command implements CommandInterface
 {
     use Dota2CommandTrait;
 

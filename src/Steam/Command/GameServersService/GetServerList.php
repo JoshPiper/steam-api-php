@@ -2,9 +2,10 @@
 
 namespace Steam\Command\GameServersService;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetServerList implements CommandInterface
+class GetServerList extends Command implements CommandInterface
 {
     public function getInterface()
     {

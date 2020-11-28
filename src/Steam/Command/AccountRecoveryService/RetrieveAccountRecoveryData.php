@@ -2,9 +2,10 @@
 
 namespace Steam\Command\AccountRecoveryService;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class RetrieveAccountRecoveryData implements CommandInterface
+class RetrieveAccountRecoveryData extends Command implements CommandInterface
 {
     /**
      * @var string

@@ -2,9 +2,10 @@
 
 namespace Steam\Command\PlayerService;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetRecentlyPlayedGames implements CommandInterface
+class GetRecentlyPlayedGames extends Command implements CommandInterface
 {
     /**
      * @var int

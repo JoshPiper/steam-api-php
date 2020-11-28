@@ -2,9 +2,10 @@
 
 namespace Steam\Command\EconService;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetTradeOffers implements CommandInterface
+class GetTradeOffers extends Command implements CommandInterface
 {
     /**
      * Request the list of sent offers.

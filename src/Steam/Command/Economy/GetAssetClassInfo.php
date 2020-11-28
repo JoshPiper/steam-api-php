@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Economy;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetAssetClassInfo implements CommandInterface
+class GetAssetClassInfo extends Command implements CommandInterface
 {
     /**
      * @var int

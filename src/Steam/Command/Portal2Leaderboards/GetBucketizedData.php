@@ -2,10 +2,11 @@
 
 namespace Steam\Command\Portal2Leaderboards;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 use Steam\Traits\Portal2CommandTrait;
 
-class GetBucketizedData implements CommandInterface
+class GetBucketizedData extends Command implements CommandInterface
 {
     use Portal2CommandTrait;
 

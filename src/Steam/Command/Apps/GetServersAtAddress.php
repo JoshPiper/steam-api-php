@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Apps;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetServersAtAddress implements CommandInterface
+class GetServersAtAddress extends Command implements CommandInterface
 {
     /**
      * @var string

@@ -2,9 +2,10 @@
 
 namespace Steam\Command\CSGOServers;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetGameServersStatus implements CommandInterface
+class GetGameServersStatus extends Command implements CommandInterface
 {
     public function getInterface()
     {

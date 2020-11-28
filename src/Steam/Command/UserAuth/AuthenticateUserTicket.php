@@ -2,9 +2,10 @@
 
 namespace Steam\Command\UserAuth;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class AuthenticateUserTicket implements CommandInterface
+class AuthenticateUserTicket extends Command implements CommandInterface
 {
     /**
      * @var int

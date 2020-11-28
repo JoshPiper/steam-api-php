@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Version;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetClientVersion implements CommandInterface
+class GetClientVersion extends Command implements CommandInterface
 {
     /**
      * @var int

@@ -2,10 +2,11 @@
 
 namespace Steam\Command\Dota2\StreamSystem;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 use Steam\Traits\Dota2CommandTrait;
 
-class GetBroadcasterInfo implements CommandInterface
+class GetBroadcasterInfo extends Command implements CommandInterface
 {
     /**
      * @var int

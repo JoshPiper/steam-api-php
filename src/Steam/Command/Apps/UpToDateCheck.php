@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Apps;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class UpToDateCheck implements CommandInterface
+class UpToDateCheck extends Command implements CommandInterface
 {
     /**
      * AppID of game.

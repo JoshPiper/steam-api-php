@@ -2,9 +2,10 @@
 
 namespace Steam\Command\UserOAuth;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetTokenDetails implements CommandInterface
+class GetTokenDetails extends Command implements CommandInterface
 {
     /**
      * @var string

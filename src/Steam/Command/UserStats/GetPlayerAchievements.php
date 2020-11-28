@@ -2,9 +2,10 @@
 
 namespace Steam\Command\UserStats;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetPlayerAchievements implements CommandInterface
+class GetPlayerAchievements extends Command implements CommandInterface
 {
     /**
      * @var int

@@ -2,9 +2,10 @@
 
 namespace Steam\Command\CheatReportingService;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class ReportCheatData implements CommandInterface
+class ReportCheatData extends Command implements CommandInterface
 {
     /**
      * @var int

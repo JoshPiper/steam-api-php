@@ -2,9 +2,10 @@
 
 namespace Steam\Command\RemoteStorage;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetUGCFileDetails implements CommandInterface
+class GetUGCFileDetails extends Command implements CommandInterface
 {
     /**
      * @var int

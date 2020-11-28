@@ -2,9 +2,10 @@
 
 namespace Steam\Command\TeamFortressItems;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetGoldenWrenches implements CommandInterface
+class GetGoldenWrenches extends Command implements CommandInterface
 {
     public function getInterface()
     {

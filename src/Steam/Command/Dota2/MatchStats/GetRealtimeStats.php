@@ -2,10 +2,11 @@
 
 namespace Steam\Command\Dota2\MatchStats;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 use Steam\Traits\Dota2CommandTrait;
 
-class GetRealtimeStats implements CommandInterface
+class GetRealtimeStats extends Command implements CommandInterface
 {
     /**
      * @var int

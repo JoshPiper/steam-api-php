@@ -2,9 +2,10 @@
 
 namespace Steam\Command\PlayerService;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetCommunityBadgeProgress implements CommandInterface
+class GetCommunityBadgeProgress extends Command implements CommandInterface
 {
     /**
      * @var int

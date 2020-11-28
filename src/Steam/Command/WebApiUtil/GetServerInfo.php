@@ -2,9 +2,10 @@
 
 namespace Steam\Command\WebApiUtil;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetServerInfo implements CommandInterface
+class GetServerInfo extends Command implements CommandInterface
 {
     public function getInterface()
     {

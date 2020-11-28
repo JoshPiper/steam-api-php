@@ -2,9 +2,10 @@
 
 namespace Steam\Command\User;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetPlayerSummaries implements CommandInterface
+class GetPlayerSummaries extends Command implements CommandInterface
 {
     /**
      * @var array

@@ -2,9 +2,10 @@
 
 namespace Steam\Command\GameServersService;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class QueryLoginToken implements CommandInterface
+class QueryLoginToken extends Command implements CommandInterface
 {
     /**
      * @var string

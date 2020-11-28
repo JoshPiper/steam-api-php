@@ -2,9 +2,10 @@
 
 namespace Steam\Command\User;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetFriendList implements CommandInterface
+class GetFriendList extends Command implements CommandInterface
 {
     /**
      * @var int

@@ -2,9 +2,10 @@
 
 namespace Steam\Command\EconItems;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetSchemaItems implements CommandInterface
+class GetSchemaItems extends Command implements CommandInterface
 {
     /**
      * @var int

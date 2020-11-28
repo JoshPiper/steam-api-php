@@ -2,9 +2,10 @@
 
 namespace Steam\Command\UserStats;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetNumberOfCurrentPlayers implements CommandInterface
+class GetNumberOfCurrentPlayers extends Command implements CommandInterface
 {
     /**
      * @var int

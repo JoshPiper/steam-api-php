@@ -2,9 +2,10 @@
 
 namespace Steam\Command\User;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetUserGroupList implements CommandInterface
+class GetUserGroupList extends Command implements CommandInterface
 {
     /**
      * @var int

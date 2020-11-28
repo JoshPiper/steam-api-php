@@ -2,9 +2,10 @@
 
 namespace Steam\Command\GameServersService;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetServerSteamIDsByIP implements CommandInterface
+class GetServerSteamIDsByIP extends Command implements CommandInterface
 {
     /**
      * @var string

@@ -2,9 +2,10 @@
 
 namespace Steam\Command\PublishedFileService;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class QueryFiles implements CommandInterface
+class QueryFiles extends Command implements CommandInterface
 {
     /**
      * enumeration EPublishedFileQueryType in clientenums.h.

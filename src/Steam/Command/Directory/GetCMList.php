@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Directory;
  
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetCMList implements CommandInterface
+class GetCMList extends Command implements CommandInterface
 {
     /**
      * @var int

@@ -2,9 +2,10 @@
 
 namespace Steam\Command\Dota2;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-class GetEmoticons implements CommandInterface
+class GetEmoticons extends Command implements CommandInterface
 {
     public function getInterface()
     {

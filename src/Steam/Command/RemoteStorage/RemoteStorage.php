@@ -3,9 +3,10 @@
 
 namespace Steam\Command\RemoteStorage;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 
-abstract class RemoteStorage implements CommandInterface {
+abstract class RemoteStorage extends Command implements CommandInterface {
 	/**
 	 * @inheritDoc
 	 */

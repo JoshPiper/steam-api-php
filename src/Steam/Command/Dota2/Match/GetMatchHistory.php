@@ -2,10 +2,11 @@
 
 namespace Steam\Command\Dota2\Match;
 
+use Steam\Command\Command;
 use Steam\Command\CommandInterface;
 use Steam\Traits\Dota2CommandTrait;
 
-class GetMatchHistory implements CommandInterface
+class GetMatchHistory extends Command implements CommandInterface
 {
     use Dota2CommandTrait;
 
