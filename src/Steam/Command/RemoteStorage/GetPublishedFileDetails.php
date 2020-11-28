@@ -11,7 +11,7 @@ class GetPublishedFileDetails extends RemoteStorage {
 	 * @inheritDoc
 	 */
 	public function getMethod(){
-		return 'GetCollectionDetails';
+		return 'GetPublishedFileDetails';
 	}
 
 	/**
